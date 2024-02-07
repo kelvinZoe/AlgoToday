@@ -23,6 +23,9 @@
       ],
       "@AlgoToday/common/ui": [
         "libs/common/ui/src/index.ts"
+      ],
+      "@AlgoToday/home": [
+        "libs/home/src/index.ts"
       ]
     }
   },
