@@ -1,5 +1,21 @@
+<AlgoToday-global-header
+  (sideNavToggle)="sideNavToggle()"
+></AlgoToday-global-header>
 <div class="wrapper">
   <div class="container">
-    
+    <AlgoToday-global-sidenav [opened]="sideNavOpen">
+      <mat-nav-list sidenav>
+        <a
+          mat-list-item
+          routerLinkActive="active-link"
+          routerLink="/"
+          (click)="sideNavToggle()"
+        >
+          <span class="App__sidenav-text">Home</span>
+        </a>
+      </mat-nav-list>
+      <router-outlet></router-outlet>
+    </AlgoToday-global-sidenav>
   </div>
 </div>
+<AlgoToday-global-footer> </AlgoToday-global-footer>

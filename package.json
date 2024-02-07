@@ -2,7 +2,6 @@
   "name": "algo-today",
   "version": "1.0.0",
   "license": "MIT",
-  
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js",
@@ -14,7 +13,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "17.0.8",
+    "@angular/animations": "17.0.7",
     "@angular/common": "17.0.8",
     "@angular/compiler": "17.0.8",
     "@angular/core": "17.0.8",
@@ -25,7 +24,12 @@
     "rxjs": "7.8.1",
     "tslib": "^2.5.3",
     "zone.js": "0.14.2",
-    "@nx/angular": "17.2.5"
+    "@nx/angular": "17.2.5",
+    "@angular/material": "17.0.4",
+    "@angular/cdk": "17.0.4",
+    "@fortawesome/fontawesome-svg-core": "6.5.1",
+    "@fortawesome/free-solid-svg-icons": "6.5.1",
+    "@fortawesome/angular-fontawesome": "0.14.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "17.0.8",
