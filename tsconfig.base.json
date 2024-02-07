@@ -20,6 +20,9 @@
     "paths": {
       "@AlgoToday/common/styles": [
         "libs/common/styles/src/index.ts"
+      ],
+      "@AlgoToday/common/ui": [
+        "libs/common/ui/src/index.ts"
       ]
     }
   },
