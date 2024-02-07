@@ -41,6 +41,9 @@
       ],
       "@AlgoToday/data-graphql": [
         "libs/data-graphql/src/index.ts"
+      ],
+      "@AlgoToday/data-models": [
+        "libs/data-models/src/index.ts"
       ]
     }
   },
