@@ -35,6 +35,9 @@
       ],
       "@AlgoToday/data-access": [
         "libs/data-access/src/index.ts"
+      ],
+      "@AlgoToday/data-services": [
+        "libs/data-services/src/index.ts"
       ]
     }
   },
