@@ -26,6 +26,27 @@
       ],
       "@AlgoToday/home": [
         "libs/home/src/index.ts"
+      ],
+      "@AlgoToday/common/common-services": [
+        "libs/common/common-services/src/index.ts"
+      ],
+      "@AlgoToday/common/common-guards": [
+        "libs/common/common-guards/src/index.ts"
+      ],
+      "@AlgoToday/data-access": [
+        "libs/data-access/src/index.ts"
+      ],
+      "@AlgoToday/data-services": [
+        "libs/data-services/src/index.ts"
+      ],
+      "@AlgoToday/data-graphql": [
+        "libs/data-graphql/src/index.ts"
+      ],
+      "@AlgoToday/data-models": [
+        "libs/data-models/src/index.ts"
+      ],
+      "@AlgoToday/common/common-environment": [
+        "libs/common/common-environment/src/index.ts"
       ]
     }
   },
