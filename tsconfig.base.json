@@ -32,6 +32,9 @@
       ],
       "@AlgoToday/common/common-guards": [
         "libs/common/common-guards/src/index.ts"
+      ],
+      "@AlgoToday/data-access": [
+        "libs/data-access/src/index.ts"
       ]
     }
   },
