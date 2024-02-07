@@ -44,6 +44,9 @@
       ],
       "@AlgoToday/data-models": [
         "libs/data-models/src/index.ts"
+      ],
+      "@AlgoToday/common/common-environment": [
+        "libs/common/common-environment/src/index.ts"
       ]
     }
   },
